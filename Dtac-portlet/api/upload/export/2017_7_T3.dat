@@ -1,0 +1,12 @@
+!YEAR=2017
+!PERIOD=July
+!VALUE=THB
+!SCENARIO=Actual
+!VIEW=YTD
+!CUSTOM2=[None]
+!CUSTOM3=[None]
+!CUSTOM4=IMPFILE
+!column_order=entity, account, ICP, custom1
+
+!DATA
+T3;C10021;[ICP None];BS;40570294.76

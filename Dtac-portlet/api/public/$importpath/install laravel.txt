@@ -1,0 +1,12 @@
+Install Laravel v.5.1
+
+Setup >> composer 
+
+1. Setup  > getcomposer.org, https://getcomposer.org/Composer-Setup.exe
+2. Test   > $composer
+3. Create > select directory > $composer create-project laravel/laravel api "5.2"
+
+
+select directory php artisan make:controller PageInputController
+
+php artisan make:model MappingDataHeader
