@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>Dtac</portlet-name>
+		<icon>/icon.png</icon>
+		<css-class-wrapper>Dtac-portlet</css-class-wrapper>  
+	</portlet>
+	<portlet>   
+		<portlet-name>mapping-data</portlet-name>    
+		<icon>/icon.png</icon>
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css>
+		<header-portlet-css>/css/bootstrap-responsive.css</header-portlet-css>
+		<header-portlet-css>/css/jquery-ui.css</header-portlet-css>
+		<header-portlet-css>/css/cssPanel.css</header-portlet-css>
+		<header-portlet-css>/css/jquery.mloading.css</header-portlet-css>
+
+		<header-portlet-css>/css/cssPageInput.css</header-portlet-css>
+
+		<footer-portlet-javascript>/js/jquery-1.12.4.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.mloading.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery-ui.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript>
+
+		<footer-portlet-javascript>/controller/cConfig.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cPageinput.js</footer-portlet-javascript>   
+		<css-class-wrapper>mapping-data-portlet</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>adjust-hfm-trial-balance</portlet-name>  
+		<icon>/icon.png</icon>
+  
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css>
+		<header-portlet-css>/css/bootstrap-responsive.css</header-portlet-css>
+		<header-portlet-css>/css/jquery-ui.css</header-portlet-css>
+		<header-portlet-css>/css/cssPanel.css</header-portlet-css>
+		<header-portlet-css>/css/jquery.mloading.css</header-portlet-css>
+		<header-portlet-css>/css/jquery.accordion.css</header-portlet-css>
+
+		<header-portlet-css>/css/cssPageOutput.css</header-portlet-css>
+
+		<footer-portlet-javascript>/js/jquery-1.12.4.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery-ui.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.mloading.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.accordion.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cConfig.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cPageoutput.js</footer-portlet-javascript>
+
+		<css-class-wrapper>
+			adjust-hfm-trial-balance-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>import-trial-balance</portlet-name>
+		<icon>/icon.png</icon>
+
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css>
+		<header-portlet-css>/css/bootstrap-responsive.css</header-portlet-css>
+		<header-portlet-css>/css/jquery-ui.css</header-portlet-css>
+		<header-portlet-css>/css/cssPanel.css</header-portlet-css>
+		<header-portlet-css>/css/jquery.mloading.css</header-portlet-css>
+
+		<header-portlet-css>/css/cssPageImport.css</header-portlet-css>  
+
+		<footer-portlet-javascript>/js/jquery-1.12.4.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery-ui.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript> 
+		<footer-portlet-javascript>/js/jquery.mloading.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cConfig.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cPageimport.js</footer-portlet-javascript> 
+
+		<css-class-wrapper>
+			import-trial-balance-portlet 
+		</css-class-wrapper>  
+	</portlet>
+	<portlet>
+		<portlet-name>export-hfm-trial-balance</portlet-name>
+		<icon>/icon.png</icon>
+
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css> 
+		<header-portlet-css>/css/bootstrap-responsive.css</header-portlet-css>
+		<header-portlet-css>/css/jquery-ui.css</header-portlet-css>
+		<header-portlet-css>/css/cssPanel.css</header-portlet-css>    
+		<header-portlet-css>/css/jquery.mloading.css</header-portlet-css>
+
+		<header-portlet-css>/css/cssPageExport.css</header-portlet-css>
+
+		<footer-portlet-javascript>/js/jquery-1.12.4.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery-ui.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.mloading.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cConfig.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cPageexport.js</footer-portlet-javascript> 
+		<css-class-wrapper>
+			export-hfm-trial-balance-portlet
+		</css-class-wrapper>
+	</portlet>
+	<portlet>
+		<portlet-name>Usage-Log</portlet-name>
+		<icon>/icon.png</icon>
+		
+		<header-portlet-css>/css/bootstrap.css</header-portlet-css> 
+		<header-portlet-css>/css/bootstrap-responsive.css</header-portlet-css>
+		<header-portlet-css>/css/jquery-ui.css</header-portlet-css>
+		<header-portlet-css>/css/cssPanel.css</header-portlet-css>    
+		<header-portlet-css>/css/jquery.mloading.css</header-portlet-css>   
+
+		<header-portlet-css>/css/cssPageUsageLog.css</header-portlet-css>
+
+		<footer-portlet-javascript>/js/jquery-1.12.4.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery-ui.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/bootstrap.min.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/js/jquery.mloading.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cConfig.js</footer-portlet-javascript>
+		<footer-portlet-javascript>/controller/cPageusageLog.js</footer-portlet-javascript>
+		
+		<css-class-wrapper>usage-log-portlet</css-class-wrapper> 
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+</liferay-portlet-app>

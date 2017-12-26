@@ -1,0 +1,101 @@
+.aui #pageOutput .table-striped {
+	height: 13em;
+}
+.aui #pageOutput table {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 99.5%;
+}
+.aui #pageOutput table thead {
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    flex: 0 0 auto;
+    width: calc(99.5% - 0.9em);
+}
+.aui #pageOutput table tbody {
+	/* body takes all the remaining available space */
+	flex: 1 1 auto;
+	display: block;
+	overflow-y: scroll;
+}
+.aui #pageOutput table tbody tr {
+	width: 99.9%;
+}
+.aui #pageOutput table thead,
+.aui #pageOutput table tbody tr {
+	display: table;
+	table-layout: fixed;
+}
+/* decorations */
+.aui #pageOutput .table-striped {
+	/*border: 1px solid black;*/
+	padding: 0.3em;
+}
+.aui #pageOutput table {
+	border: 1px solid lightgrey;
+
+}
+.aui #pageOutput table td, .aui #pageOutput table th {
+	padding: 0.3em;
+	/*border: 1px solid lightgrey;*/
+}
+.aui #pageOutput table th {
+	/*border: 1px solid grey;*/
+		 font-weight: bold;
+}
+
+.aui #pageOutput .span12{
+	margin-bottom: -8px;
+}
+
+.aui #pageOutput .table th, .aui #pageOutput .table td {
+	/*border-top: 1px solid #dddddd;*/
+	line-height: 20px;
+	padding: 3px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+}
+.aui #pageOutput label{
+	margin-bottom: 0px;
+}
+
+.aui #pageOutput input[type="checkbox"] {
+	margin-top: 0px;
+}
+
+.aui #pageOutput .accordion {
+	margin-bottom: 0;
+}
+
+.aui #pageOutput input[type="text"],.aui #pageOutput input[type="number"] {
+	margin-bottom: 0px;
+}
+
+.aui #pageOutput input[class="borderRed"]{
+	border-color: #e9322d;
+	box-shadow: 0 0 6px #f8b9b7;
+}
+
+.TextRed{
+	color: #ff3300;
+}
+.aui #pageOutput .accordion-heading .accordion-toggle {
+	background: #428bca none repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.aui #pageOutput .accordion{
+	margin-bottom: 5px;
+}
+.aui #pageOutput .well{
+	margin-bottom: 5px; 
+}
+.aui #pageOutput select{
+	margin-bottom: 0px;
+}
+.aui #pageOutput .btn.disabled,.aui #pageOutput .btn[disabled] {
+	opacity: 0.3;
+/* 	cursor: not-allowed; */
+}

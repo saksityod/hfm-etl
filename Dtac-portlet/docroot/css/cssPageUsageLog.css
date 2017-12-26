@@ -1,0 +1,101 @@
+.aui #PageusageLog .table-striped {
+	height: 20em;
+}
+.aui #PageusageLog table {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 99.5%;
+
+}
+.aui #PageusageLog table thead {
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    flex: 0 0 auto;
+    width: calc(99.5% - 0.9em);
+}
+.aui #PageusageLog table tbody {
+	/* body takes all the remaining available space */
+	flex: 1 1 auto;
+	display: block;
+	overflow-y: scroll;
+}
+.aui #PageusageLog table tbody tr {
+	width: 99.9%;
+}
+.aui #PageusageLog table thead,
+.aui #PageusageLog table tbody tr {
+	display: table;
+	table-layout: fixed;
+}
+/* decorations */
+.aui #PageusageLog .table-striped {
+	/*border: 1px solid black;*/
+	padding: 0.3em;
+}
+.aui #PageusageLog table {
+	border: 1px solid lightgrey;
+	/*background-color: rgb(240, 239, 239);*/
+}
+.aui #PageusageLog table td, .aui table th {
+	padding: 0.3em;
+	/*border: 1px solid lightgrey;*/
+}
+.aui #PageusageLog table th {
+	/*border: 1px solid grey;*/
+	 font-weight: bold;
+}
+
+.aui #PageusageLog .span12{
+	margin-bottom: -8px;
+}
+
+.aui #PageusageLog .table th,.aui #PageusageLog .table td {
+	/*border-top: 1px solid #dddddd;*/
+	line-height: 20px;
+	padding: 3px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+}
+.aui #PageusageLog label{
+	margin-bottom: 0px;
+}
+
+.aui #PageusageLog input[type="checkbox"] {
+	margin-top: 0px;
+}
+
+.aui #PageusageLog .accordion {
+	margin-bottom: 0;
+}
+
+.aui #PageusageLog input[class="borderRed"]{
+	border-color: #e9322d;
+	box-shadow: 0 0 6px #f8b9b7;
+}
+
+.aui #PageusageLog input[type="text"],.aui #PageusageLog input[type="number"] {
+	margin-bottom: 0px;
+}
+.TextRed{
+	color: #ff3300;
+}
+.aui #PageusageLog .accordion-heading .accordion-toggle {
+	background: #428bca none repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.aui #PageusageLog .accordion{
+	margin-bottom: 5px;
+}
+.aui #PageusageLog .well{
+	margin-bottom: 5px; 
+}
+.aui #PageusageLog select{
+	margin-bottom: 0px;
+}
+.aui #PageusageLog .btn.disabled,.aui #pageInput .btn[disabled] {
+	opacity: 0.4;
+	/* cursor: not-allowed; */
+}

@@ -1,0 +1,114 @@
+.aui #pageimport select, .aui #pageimport input[type="file"] {
+	border: 1px solid #e1e1e8;
+	height: 30px;
+	line-height: 30px;
+}
+
+.aui #pageimport input[type="file"] {
+	border: 1px solid #e1e1e8;
+	height: 30px;
+	line-height: 30px;
+	width: 30%;
+}
+
+.aui #pageimport .table-striped {
+	height: 15em;
+}
+.aui #pageimport table {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	width: 99.5%;
+
+}
+.aui #pageimport table thead {
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    flex: 0 0 auto;
+    width: calc(99.5% - 0.9em);
+}
+.aui #pageimport table tbody {
+	/* body takes all the remaining available space */
+	flex: 1 1 auto;
+	display: block;
+	overflow-y: scroll;
+}
+.aui #pageimport table tbody tr {
+	width: 99.9%;
+}
+.aui #pageimport table thead,
+.aui #pageimport table tbody tr {
+	display: table;
+	table-layout: fixed;
+}
+/* decorations */
+.aui #pageimport .table-striped {
+	/*border: 1px solid black;*/
+	padding: 0.3em;
+}
+.aui #pageimport table {
+	border: 1px solid lightgrey;
+	/*background-color: rgb(240, 239, 239);*/
+}
+.aui #pageimport table td,.aui #pageimport table th {
+	padding: 0.3em;
+	/*border: 1px solid lightgrey;*/
+}
+.aui #pageimport table th {
+	/*border: 1px solid grey;*/
+	 font-weight: bold;
+}
+
+.aui #pageimport .span12{
+	margin-bottom: -8px;
+}
+
+.aui #pageimport .table th,.aui #pageimport .table td {
+	/*border-top: 1px solid #dddddd;*/
+	line-height: 20px;
+	padding: 3px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+}
+.aui #pageimport label{
+	margin-bottom: 0px;
+}
+
+.aui #pageimport input[type="checkbox"] {
+	margin-top: 0px;
+}
+
+.aui #pageimport .accordion {
+	margin-bottom: 0;
+}
+
+.aui #pageimport input[class="borderRed"]{
+	border-color: #e9322d;
+	box-shadow: 0 0 6px #f8b9b7;
+}
+
+.aui #pageimport input[type="text"],.aui #pageimport input[type="number"] {
+	margin-bottom: 0px;
+}
+.TextRed{
+	color: #ff3300;
+}
+.aui #pageimport .accordion-heading .accordion-toggle {
+	background: #428bca none repeat scroll 0 0;
+	color: #ffffff;
+}
+
+.aui #pageimport .accordion{
+	margin-bottom: 5px;
+}
+.aui #pageimport .well{
+	margin-bottom: 5px; 
+}
+.aui #pageimport select{
+	margin-bottom: 0px;
+}
+.aui #pageimport .btn.disabled,.aui #pageimport .btn[disabled] {
+	opacity: 0.4;
+	/* cursor: not-allowed; */
+}
